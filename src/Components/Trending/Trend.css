@@ -1,0 +1,31 @@
+.trend {
+    margin-top: 50px;
+  }
+  .trend h1 {
+    font-size: 60px;
+    margin-top: 0;
+  }
+  @media only screen and (max-width: 768px) {
+    .trend h1 {
+      font-size: 50px;
+      margin: 0;
+    }
+    .trend {
+      position: relative;
+      height: 60vh !important;
+    }
+    .trend .coverImage img {
+      width: 100vw;
+      height: 70vh !important;
+    }
+    .trend .content {
+      flex-direction: column;
+      padding: 50px;
+    }
+    .trend .row {
+      width: 100%;
+    }
+    .trend .palyButton {
+      display: none;
+    }
+  }

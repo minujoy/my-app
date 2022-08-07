@@ -1,0 +1,56 @@
+
+.bg {
+  background-image: url("https://images.alphacoders.com/914/thumb-1920-914125.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  }
+
+.signupbox-container{
+  width: 300px;
+  height: 450px;
+  top: 0;
+  text-align: center;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 20%);
+  padding: 20px;
+  background-color: rgb(0, 0, 0);
+  box-shadow: 0 0 20px 2px rgba(30, 29, 29, 0.4);
+ }
+ .form-field{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+ }
+ .form input{
+  position: relative;
+  height: 45px;
+  width: 90%;
+  margin-bottom: 17px;
+ }
+
+ .form p{
+    padding: 5px;
+    line-height: 30px;
+    font-size:medium;
+    margin:2px;
+    color: rgb(72, 68, 68);
+
+ }
+ .button {
+    background: #e50813;
+    margin: 6;
+    color: #fff;
+    padding: 12px 40px;
+    font-weight: 500;
+    font-size: 17px;
+  }
+@media screen and (max-width: 550px) {
+    .signupbox {
+      width: 85%;
+      height: 100%;
+    }
+  }
